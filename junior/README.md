@@ -80,3 +80,6 @@ config_file="service.conf" resolved relative to the caller’s working directory
 fixed it by resolving the path from ${BASH_SOURCE[0]} so it’s anchored to the script’s own directory.
 
 ### Task 3: Repair the automated check
+
+I'm at the 1h mark so i'm stoping right here, i'm still to solve the 3rd task or look at the file. cant find the `.github/workflows/check-scripts.yml` file or directory, 
+so i'm not sure if i have the complete assesment or not. 
