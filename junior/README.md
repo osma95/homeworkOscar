@@ -58,3 +58,18 @@ and pull request triggers, and ensure a script failure fails the workflow.
 
 Stop after approximately one hour. If anything remains unresolved, submit
 your progress, what you tried, and what you would investigate next.
+
+## Findings
+
+Task 1: Fix a failing script
+
+this script had two typos preventing it to run properly:
+
+echo "Bytes base64: $bytes-base64"
+ehho "Bytes base64 count: $bytes_base64_count"
+
+using this variable like this bytes-base64 read "$bytes" as the varioable and the rest as text
+ehho makes the script not recognize a valid command
+
+functionality: It generates 10 random bytes, base64-encodes them, counts both, and prints the counts, their sum, and the encoded string.
+
