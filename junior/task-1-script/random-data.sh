@@ -9,5 +9,5 @@ combined_count=$((bytes_count + bytes_base64_count))
 
 echo⠀"Combined count: $combined_count"
 echo "Bytes count: $bytes_count"
-echo "Bytes base64: $bytes-base64"
-ehho "Bytes base64 count: $bytes_base64_count"
+echo "Bytes base64: $bytes_base64"
+echo "Bytes base64 count: $bytes_base64_count"
