@@ -73,3 +73,8 @@ ehho makes the script not recognize a valid command
 
 functionality: It generates 10 random bytes, base64-encodes them, counts both, and prints the counts, their sum, and the encoded string.
 
+
+Task 2: Resolve a configuration issue
+
+config_file="service.conf" resolved relative to the caller’s working directory, so the script failed from any other directory. 
+fixed it by resolving the path from ${BASH_SOURCE[0]} so it’s anchored to the script’s own directory.
